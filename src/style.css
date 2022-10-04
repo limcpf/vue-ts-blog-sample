@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: lighter;
+  src: url(assets/font/Pretendard-Thin.subset.woff2);
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: normal;
+  src: url(assets/font/Pretendard-Light.subset.woff2);
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  font-style: normal;
+  font-weight: bold;
+  src: url(assets/font/Pretendard-Bold.subset.woff2);
+}
+
+:root {
+  --font-family: 'Pretendard', system-ui,-apple-system,"Segoe UI","Roboto","Ubuntu","Cantarell","Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+hr {
+  margin: 1rem 0rem;
+}
